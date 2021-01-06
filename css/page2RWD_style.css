@@ -1,0 +1,120 @@
+/* 商品一覽 */
+.col_nav{
+    width: 15%;
+}
+.row_nav{
+    margin-top: 300px;
+    width: 94%;
+    padding: 3%;
+    justify-content: space-around;
+}
+.Page2_title{
+    position: absolute;
+    width: 192px;
+    height: 56px;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #B28E6A;
+    margin-left: 87px;
+    margin-top: -100px;
+}
+.nav2-list-item-link{
+    display: block;
+    text-decoration: none 3px ;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #B28E6A;
+}
+.nav2-list-line{
+    width: 15%;
+    height: 0px;
+    border: 1px solid #000000;
+}
+/* 產品 */
+.col_product{
+    margin: 0 3%;
+    margin-bottom: 260px;
+    display: block;
+    width: 19%;
+    height: 50%;
+    justify-content: center;
+}
+.row_product{
+    padding:6% 5%;
+    width: 90%;
+    height: 800px;
+    justify-content: flex-start;
+}
+.product_pic_page2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.Product_words{
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+
+}
+.Product_info{
+    color: #B28E6A;
+}
+.Product_btn{
+    font-size: 18px;
+    line-height: 45px;
+    color: #FFFFFF;
+    background-color: #99D3D0;
+    border-radius: 6px;
+}
+.Product_btn:hover{
+    color: #FFFFFF;
+    background-color: #B28E6A
+}
+.page2_footer{
+    margin-top: 400px;
+}
+.here{
+    font-weight: bold;
+}
+.here_color{
+    border-color: #99D3D0;
+}
+@media (max-width: 1024px) {
+    /* 商品一覽 */
+    .Page2_title{
+        font-size: 36px;
+    }
+    .nav2-list-item-link{
+        font-size: 16px;
+    }
+    .nav2-list-line{
+        width: 13%;
+    }
+    .col_product{
+    width: 27%;
+    }
+}
+@media (max-width: 720px) {
+    /* 商品一覽 */
+    .Page2_title{
+        display: none
+    }
+    .nav2-list-item-link{
+        display: none   
+    }
+    .nav2-list-line{  
+        display: none 
+    }
+    .row_product{
+        width: 70%;
+        margin-left: 12%;
+    }
+    .col_product{
+        width: 100%;
+    }
+    .page2_footer{
+        margin-top: 2500px;
+    }
+}
